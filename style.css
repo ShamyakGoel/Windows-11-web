@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("./bg.jpeg");
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.start{
+    position: absolute;
+    left: 548px;
+    bottom: 9px;
+    width: 26px;
+    height: 29px;
+}
+.storeMenu{
+    display: none;
+}
+.startmenu .img{
+    border-radius: 8px;
+}
+.edgeMenu{
+    display: none;
+    transition: all 0.2s linear;
+}
+.photos{
+    position: absolute;
+    left: 841px;
+    top: 77px;
+}
+.store{
+    position: absolute;
+    left: 725px;
+    top: 78px;
+}
+.vs{
+    position: absolute;
+    left: 765px;
+    bottom: 7px;
+}
+.vsMenu{
+    display: none;
+}
+.edge_taskbar{
+    position: absolute;
+    left: 723px;
+    bottom: 7px;
+    width: 27px;
+    height: 31px;
+}
+.taskbar{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #f3f3f3;
+}
+.edgeMenu div{
+    position: absolute;
+    right: 0;
+}
+.edgeMenu div .restore{
+    position: absolute;
+    right: 48px;
+}
+.edgeMenu div .cross{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.photosMenu div{
+    position: absolute;
+    right: 0;
+}
+.photosMenu div .restore{
+    position: absolute;
+    right: 48px;
+}
+.photosMenu{
+    display: none;
+}
+.photosMenu div .cross{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.storeMenu div{
+    position: absolute;
+    right: 0;
+}
+.storeMenu div .restore{
+    position: absolute;
+    right: 48px;
+}
+.storeMenu div .cross{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.photosMenu div .minimize{
+    position: absolute;
+    right: 104px;
+}
+.vsMenu div{
+    position: absolute;
+    right: 0;
+}
+.vsMenu div .restore{
+    position: absolute;
+    right: 48px;
+    background-color: black;
+}
+.vsMenu div .minimize{
+    position: absolute;
+    right: 104px;
+}
+.vsMenu div .cross{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+.edge{
+    width: 90px;
+    height: 55px;
+    left: 436px;
+    position: absolute;
+    bottom: 517px;
+}
+
+.right{
+    position: absolute;
+    right: 0;
+    height: 85%;
+    margin: 4px 0;
+}
+
+.startmenu{
+    position: absolute;
+    transition: all 0.4s ease-in;
+    bottom: -655px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.store_taskbar{
+    position: absolute;
+    left: 854px;
+    bottom: 5px;
+}
